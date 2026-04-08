@@ -4,7 +4,8 @@ MaRS Recruitment Task-1 Solutions (Software Domain)
 
 ## Overview
 This repository contains my solutions for Task-1 of MaRS recruitment.
-
+## Objective
+The goal of this task is to demonstrate problem-solving ability, system-level thinking, and familiarity with Linux, scripting, and structured programming.
 ## Tasks Completed
 - Linux Commands (Bash Script)
 - System Check Script
@@ -15,6 +16,7 @@ This repository contains my solutions for Task-1 of MaRS recruitment.
 
 ## Approach
 I focused on understanding each problem and implementing logical solutions step-by-step.
+
 
 ## Learning Experience
 - Learned Linux commands and scripting
@@ -30,9 +32,17 @@ I focused on understanding each problem and implementing logical solutions step-
 - GeeksforGeeks
 - Linux documentation
 - Self-learning
-  ## Behavior Tree Explanation
-The behavior tree is used for decision-making in the rover system. 
-A selector node determines whether the rover should operate normally or switch to a low-power mode based on battery conditions.
+## Behavior Tree Explanation
+The behavior tree models decision-making in the rover system.
+
+- A selector node decides between normal operation and low-power mode.
+- If battery > 20% → rover navigates and collects data.
+- If battery < 20% → rover returns to base and conserves energy.
+
+This approach ensures modular and scalable decision-making.
+
+## Key Takeaway
+This task helped me understand how software systems interact with real-world robotics problems and improved my ability to design structured and efficient solutions.
 
 - If battery > 20% → Normal operation (navigation and data collection)
 - If battery < 20% → Return to base and conserve power
