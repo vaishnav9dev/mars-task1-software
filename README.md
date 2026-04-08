@@ -15,6 +15,9 @@ The goal of this task is to demonstrate problem-solving ability, system-level th
 - Reverse Encoding
 - Behavior Tree
 
+## Linux & Bash Usage
+All scripting and file operations were performed using a Linux-like terminal environment (Git Bash), demonstrating familiarity with standard Linux commands and workflows.
+
 ## Python Implementations
 - Coordinate Transformation (robotics concept)
 - Morse Code Decoder
