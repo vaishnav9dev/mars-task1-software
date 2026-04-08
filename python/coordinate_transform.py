@@ -21,15 +21,16 @@ def transform_coordinates(x, y, theta, tx, ty):
 # 🔹 Example usage
 if __name__ == "__main__":
     # Camera coordinates
-    x, y = 2, 3
-    
-    # Rotation (in radians)
-    theta = math.radians(30)
-    
-    # Translation
-    tx, ty = 5, 7
 
-    wx, wy = transform_coordinates(x, y, theta, tx, ty)
+    x = float(input("Enter x: "))
+    y = float(input("Enter y: "))
+    theta = float(input("Enter rotation angle (degrees): "))
+    tx = float(input("Enter translation x: "))
+    ty = float(input("Enter translation y: "))
+
+    theta_rad = math.radians(theta)
+
+    wx, wy = transform_coordinates(x, y, theta_rad, tx, ty)
 
     print("World Coordinates:", wx, wy)
 
