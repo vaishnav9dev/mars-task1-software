@@ -30,3 +30,11 @@ I focused on understanding each problem and implementing logical solutions step-
 - GeeksforGeeks
 - Linux documentation
 - Self-learning
+  ## Behavior Tree Explanation
+The behavior tree is used for decision-making in the rover system. 
+A selector node determines whether the rover should operate normally or switch to a low-power mode based on battery conditions.
+
+- If battery > 20% → Normal operation (navigation and data collection)
+- If battery < 20% → Return to base and conserve power
+
+This approach ensures modular and scalable control compared to traditional conditional logic.
