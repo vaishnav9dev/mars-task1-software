@@ -6,6 +6,7 @@ MaRS Recruitment Task-1 Solutions (Software Domain)
 This repository contains my solutions for Task-1 of MaRS recruitment.
 ## Objective
 The goal of this task is to demonstrate problem-solving ability, system-level thinking, and familiarity with Linux, scripting, and structured programming.
+
 ## Tasks Completed
 - Linux Commands (Bash Script)
 - System Check Script
@@ -14,6 +15,10 @@ The goal of this task is to demonstrate problem-solving ability, system-level th
 - Reverse Encoding
 - Behavior Tree
 
+## Python Implementations
+- Coordinate Transformation (robotics concept)
+- Morse Code Decoder
+- Reverse Encoding Algorithm
 ## Approach
 I focused on understanding each problem and implementing logical solutions step-by-step.
 
