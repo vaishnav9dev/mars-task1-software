@@ -1,63 +1,90 @@
 # mars-task1-software
 MaRS Recruitment Task-1 Solutions (Software Domain)
-# MaRS Task-1 (Software)
+# MaRS Task-1 Submission
 
 ## Overview
-This repository contains my solutions for Task-1 of MaRS recruitment.
-## Objective
-The goal of this task is to demonstrate problem-solving ability, system-level thinking, and familiarity with Linux, scripting, and structured programming.
+This repository contains my implementation for Task-1 of MaRS recruitment.  
+It demonstrates my understanding of Linux commands, Bash scripting, Python problem-solving, and system-level thinking.
 
-## Tasks Completed
-- Linux Commands (Bash Script)
-- System Check Script
-- Coordinate Transformation
-- Morse Code Decoder
-- Reverse Encoding
-- Behavior Tree
+---
 
-## Linux & Bash Usage
-All scripting and file operations were performed using a Linux-like terminal environment (Git Bash), demonstrating familiarity with standard Linux commands and workflows.
+## Folder Structure
+
+- `bash/` → Contains shell scripts for rover operations  
+- `python/` → Contains Python solutions for problem statements  
+- `images/` → Contains screenshots and diagrams  
+- `.gitignore` → Ignores generated files  
+
+---
+
+## Bash Scripts
+
+### rover_commands.sh
+- Creates a rover mission directory  
+- Initializes a mission log file  
+
+### rover_system_check.sh
+- Simulates rover system checks  
+- Verifies battery level and communication status  
+
+---
 
 ## Python Implementations
-- Coordinate Transformation (robotics concept)
-- Morse Code Decoder
-- Reverse Encoding Algorithm
 
-  ## Execution Proof
-All scripts and Python programs were executed successfully.  
-Refer to the `images/final_output.png` for output verification.
+### Coordinate Transformation
+- Converts coordinates from camera frame to world frame  
+- Uses rotation and translation  
 
-## Approach
-I focused on understanding each problem and implementing logical solutions step-by-step.
+### Morse Code Decoder
+- Decodes Morse code into readable text using dictionary mapping  
 
+### Reverse Encoding
+- Reverses a string and shifts characters using ASCII values  
 
-## Learning Experience
-- Learned Linux commands and scripting
-- Understood coordinate transformations
-- Improved problem-solving skills
+### Rover Decision System (Hard Problem)
+- Simulates rover decision-making based on:
+  - Battery level  
+  - Obstacle detection  
+  - Signal strength  
 
-## Challenges Faced
-- Understanding coordinate transformations
-- Writing clean and efficient code
-- Debugging scripts
+---
 
-## Resources Used
-- GeeksforGeeks
-- Linux documentation
-- Self-learning
-## Behavior Tree Explanation
-The behavior tree models decision-making in the rover system.
+## Behavior Tree
+A behavior tree is used to model rover decision-making:
+- If battery is sufficient → continue mission  
+- If battery is low → return to base  
+- Ensures modular and scalable logic  
 
-- A selector node decides between normal operation and low-power mode.
-- If battery > 20% → rover navigates and collects data.
-- If battery < 20% → rover returns to base and conserves energy.
+---
 
-This approach ensures modular and scalable decision-making.
+## Execution Proof
 
-## Key Takeaway
-This task helped me understand how software systems interact with real-world robotics problems and improved my ability to design structured and efficient solutions.
+### Script Outputs
+![Execution](images/final_output.png)
 
-- If battery > 20% → Normal operation (navigation and data collection)
-- If battery < 20% → Return to base and conserve power
+### Git Workflow
+![Git](images/git_workflow.png)
 
-This approach ensures modular and scalable control compared to traditional conditional logic.
+### Repository Structure
+![Structure](images/repo_structure.png)
+
+### Behaviour tree
+![Tree](images/behaviour_tree.png)
+---
+
+## Skills Demonstrated
+- Linux command-line usage  
+- Bash scripting  
+- Python problem solving  
+- Git version control (including conflict resolution)  
+- System design using behavior trees  
+
+---
+
+## Conclusion
+This task helped me understand how software interacts with real-world robotic systems and improved my structured problem-solving approach.
+
+---
+
+## Note
+All implementations were developed with a focus on clarity, correctness, and understanding of underlying logic.
